@@ -1,0 +1,21 @@
+*****************  step1  *******************
+get response 
+1. profilephoto ===>  base64
+2. sizingphoto ====> base64
+
+***************** step2  *********************
+convert the base64 image into jpg
+
+***************** step3 ***********************
+find the face on sizingphoto crop it, convert into grayscale, save it
+convert the sizingphoto into grayscale, save it 
+run the correlation algorithm 
+
+***************** step4 ***********************
+return response
+
+### Try on Java 
+### Try on Javascript 
+### Try on Python
+### Comapre the response time 
+### Deployment
